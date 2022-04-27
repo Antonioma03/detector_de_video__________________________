@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detector de camara</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+<h3 class="btn-primary" id="titulo">aplicasion de detecsion de imagenes en tiempo real
+<hr>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="subtitulo">
+    secreo utilisando mabilenet
+    <br>
+    <div class="btn" id="subtitulo2">
+estaentrenado con mas de 1.3Millones de imagenes
+    </div>
+</div>
+</h3>
+<br>
+<h3 id="resultado" class="btn btn-success">objeto:
+    <span id="objeto"></span>
+</h3>
+<br>
+<h3 id="confiansa" class="btn btn-success">presision:
+    <span id="presision"></span>
+</h3>
+
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>

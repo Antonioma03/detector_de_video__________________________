@@ -1,0 +1,26 @@
+body{
+    background-position: center;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    text-align: center;
+}
+#titulo{
+    font-size: 23px;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgb(167, 18, 18);
+}
+#subtitulo{
+    background: rgb(9, 75, 64);
+    box-shadow: 5px 5px 5px rgb(20, 3, 92);
+    width: 100%;
+}
+#resultado,#confiansa{
+    box-shadow: 5px 5px 5px rgb(33, 116, 8);
+    white-space: pre-line;
+}
+canvas{
+    border: 5px solid rgb(13, 54, 88);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 255, 242);
+    margin-top: 160px;
+}
